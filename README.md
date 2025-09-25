@@ -1,6 +1,6 @@
 # AI-Agent-Guide
 
-欢迎来到 AI-Agent-Guide！本仓库旨在为研究人员、开发人员和爱好者提供一份关于基于大型语言模型（LLM）的AI智能体（AI Agent）的全面、权威且持续更新的指南。随着人工智能从被动的文本生成工具演变为能够感知、规划、记忆和行动的主动实体，一个全新的“智能体时代”已经到来 。本指南将系统性地剖析AI智能体的核心架构，梳理关键技术，并提供相关的学术论文和开源代码库，以帮助您深入理解并构建下一代智能应用。
+欢迎来到 AI-Agent-Guide！本仓库旨在为研究人员、开发人员和爱好者提供一份AI智能体（AI Agent）的全面、权威且持续更新的指南。随着人工智能从被动的文本生成工具演变为能够感知、规划、记忆和行动的主动实体，一个全新的“智能体时代”已经到来 。本指南将系统性地剖析AI智能体的核心架构，梳理关键技术，并提供相关的学术论文和开源代码库，以帮助您深入理解并构建下一代智能应用。
 
 本指南的结构和内容经过精心设计，确保所有引用的论文和代码库都真实可查，为该领域的学习和研究提供一个坚实可靠的基础 。
 
@@ -53,19 +53,18 @@
     这篇论文提出了一个关于LLM驱动的自主智能体的整体性框架，系统地从构建、应用和评估三个维度对现有研究进行了梳理。它提出的智能体架构（包括画像、记忆、规划、行动模块）已成为该领域广泛引用的标准模型 。
 
     [arXiv: 2308.11432](https://arxiv.org/abs/2308.11432)
-    GitHub: (暂无)
 
 *   **Large Language Model Agent: A Survey on Methodology, Applications and Challenges** (Luo et al., 2025)
 
     该综述以方法论为中心，系统地解构了LLM智能体系统。它深入探讨了智能体的架构基础、协作机制和演化路径，旨在统一碎片化的研究线索，揭示智能体设计原则与其复杂环境中涌现行为之间的内在联系 。
 
-    [arXiv: 2503.21460](https://arxiv.org/abs/2503.21460)
+    [arXiv: 2503.21460](https://arxiv.org/abs/2503.21460) [GitHub] (https://github.com/luo-junyu/Awesome-Agent-Papers)
 
 *   **Agentic Large Language Models, a survey** (Plaat et al., 2025)
 
     这篇综述将智能体LLM（Agentic LLM）的核心能力归纳为三个方面：推理（reason）、行动（act）和交互（interact）。论文围绕这三个类别组织文献，清晰地展示了不同研究方向如何相互促进，例如，信息检索如何赋能工具使用，反思机制如何改善多智能体协作等 。
 
-    [arXiv: 2503.23037](https://arxiv.org/abs/2503.23037)
+    [arXiv: 2503.23037](https://arxiv.org/abs/2503.23037) [Website:] https://askeplaat.github.io/agentic-llm-survey-site/
 
 ### 特定领域应用综述
 *   **A Survey of Large Language Model Agents for Question Answering** (2025)
@@ -93,7 +92,9 @@
 
     [arXiv: 2303.04129](https://arxiv.org/abs/2303.04129)
 
+
 ---
+
 
 ## 🧠 AI智能体剖析：核心架构蓝图
 为了系统地理解AI智能体，我们需要一个清晰的架构蓝图。尽管具体的实现各有不同，但大多数基于LLM的单体智能体都可以被解构成一个包含四个核心模块的统一框架。这个框架由Wang等人（2023）在其广受引用的综述中提出，为我们提供了一个分析和构建智能体的通用模型 。
@@ -140,20 +141,20 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     该综述将“Agent AI”定义为能够感知视觉刺激和其他接地数据以产生具身行动的系统，为多模态智能体的研究划定了范围。
 
-    [arXiv: 2407.13504](https://arxiv.org/abs/2407.13504)
+    [arXiv: 2401.03568](https://arxiv.org/abs/2401.03568)
 
 *   **论文: Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception** (Wang et al., 2024)
 
     介绍了一个纯视觉驱动的移动设备智能体，它无需依赖系统底层的元数据（如XML布局文件），仅通过分析屏幕截图就能自主导航和操作App，充分展示了视觉感知在跨平台通用性方面的巨大潜力。
 
-    [arXiv: 2404.09506](https://arxiv.org/abs/2404.09506)
-    [GitHub: (暂无)](https://github.com/Mobile-Agent)
+    [arXiv: 2401.16158](https://arxiv.org/abs/2401.16158)
+    [GitHub](https://github.com/X-PLUG/MobileAgent)
 
-*   **论文: Are Multimodal Agents Faithful in a Risky World?** (2024)
+<!-- *   **论文: Are Multimodal Agents Faithful in a Risky World?** (2024)
 
     这是一篇至关重要的论文，它首次系统地探讨了GUI智能体在面对环境中无关干扰信息时的脆弱性，对智能体的可靠性和忠实度提出了深刻的质疑。
 
-    [arXiv: 2402.17641](https://arxiv.org/abs/2402.17641)
+    [arXiv: 2402.17641](https://arxiv.org/abs/2402.17641) -->
 
 从文本到视觉的跨越是智能体走向通用性的关键一步。然而，当前的技术发展表明，感知，特别是可靠且忠实的多模态感知，是实现这一目标的主要瓶颈。最初的智能体在纯文本环境中运行，其感知等同于读取输入。为了在为人类设计的、以视觉为主导的数字世界（如操作系统、网页）中发挥实际作用，智能体必须具备由VLM驱动的多模态感知能力。然而，研究明确指出，通用VLM在精确的UI元素定位方面存在困难，并且容易受到视觉干扰信息的影响，这会直接损害任务的成功率和用户信任。因此，如果一个智能体无法准确、忠实地感知其所处的环境，那么其再强大的规划、记忆和行动能力也无从发挥。整个智能体技术栈的可靠性，最终都建立在其感知模块的保真度之上。
 
@@ -182,7 +183,7 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
     奠基论文: **ReAct: Synergizing Reasoning and Acting in Language Models** (Yao et al., 2022)
 
     [arXiv: 2210.03629](https://arxiv.org/abs/2210.03629)
-    代码库: (暂无)
+    [代码库] (https://github.com/ysymyth/ReAct)
 
 3.  **思维树 (Tree of Thoughts, ToT)**
     概念：ToT进一步突破了CoT和ReAct的线性推理模式。当面对需要探索或深思熟虑的问题时，ToT允许模型同时探索多条不同的推理路径，并将这些路径组织成一棵“思维树”。在这个过程中，LLM不仅扮演着“思考者”的角色，还扮演着“评估者”的角色：它会自我评估树中每个节点（即每个中间“想法”）的价值和前景，然后决定是继续深入探索某条路径（lookahead），还是放弃当前路径并返回到之前的节点尝试其他可能性（backtracking）。这种机制赋予了智能体进行系统性搜索和深思熟虑决策的能力 。
@@ -190,7 +191,7 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
     奠基论文: **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** (Yao et al., 2023)
 
     [arXiv: 2305.10601](https://arxiv.org/abs/2305.10601)
-    代码库: (暂无)
+    [代码库] (https://github.com/princeton-nlp/tree-of-thought-llm)
 
 ### 核心推理技术对比
 为了帮助研究者和开发者快速理解不同推理技术的特点和适用场景，下表对上述核心技术进行了对比。从CoT到ReAct再到ToT的演变，清晰地展示了智能体认知能力从简单的线性演绎，到与环境互动的接地推理，再到复杂问题空间的主动探索这一发展轨迹。
@@ -226,19 +227,19 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     该论文深入探讨了LLM中的记忆机制，并巧妙地将人类的认知记忆架构（感觉记忆、短时记忆、长时记忆）与LLM的记忆系统进行了类比分析。
 
-    [arXiv: 2503.17706](https://arxiv.org/abs/2503.17706)
+    [arXiv: 2504.02441](https://arxiv.org/abs/2504.02441)
 
 *   **论文: A-Mem: Agentic Memory for LLM Agents** (2025)
 
     提出了一种新颖的“智能体化记忆”系统（A-Mem）。受知识管理方法Zettelkasten的启发，该系统允许智能体根据新的经验动态地组织、链接和演化其记忆，而不是简单地被动存储。
 
-    [arXiv: 2503.19702](https://arxiv.org/abs/2503.19702)
+    [arXiv: 2501.09136](https://arxiv.org/abs/2501.09136)
 
 *   **综述: Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG** (Singh et al., 2025)
 
     这是一篇关于Agentic RAG的全面综述，详细介绍了将智能体集成到RAG流程中的各种架构、应用和挑战。
 
-    [arXiv: 2503.17937](https://arxiv.org/abs/2503.17937)
+    [arXiv: 2501.09136](https://arxiv.org/abs/2501.09136)
 
 *   **向量数据库:**
     *   [Weaviate](https://weaviate.io/)
@@ -278,16 +279,16 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 *   **论文: Gorilla: Large Language Model Connected with Massive APIs** (Patil et al., 2023)
 
     [arXiv: 2305.15334](https://arxiv.org/abs/2305.15334)
-    [GitHub:](https://github.com/ShishirPatil/gorilla)
+    [GitHub仓库](https://github.com/ShishirPatil/gorilla)
 
 *   **论文: ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** (Qin et al., 2023)
 
-    [arXiv: 2307.16721](https://arxiv.org/abs/2307.16721)
-    [GitHub:](https://github.com/OpenBMB/ToolLLM)
+    [arXiv: 2307.16789](https://arxiv.org/abs/2307.16789)
+    [GitHub仓库](https://github.com/OpenBMB/ToolBench)
 
 *   **论文: LLMs as Tool Makers** (Cai et al., 2023)
 
-    [arXiv: 2305.17364](https://arxiv.org/abs/2305.17364)
+    [arXiv: 2305.17126](https://arxiv.org/abs/2305.17126)
 
 ---
 
@@ -309,7 +310,7 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     特点: LlamaIndex的独特价值主张是为基于私有数据构建LLM应用提供一站式解决方案。它的核心功能围绕着数据的摄取（Ingestion）、**索引（Indexing）和查询（Querying）**展开。如果你应用的核心需求是让LLM能够高效、准确地查询和理解你的私有知识库（无论是PDF、数据库还是API），LlamaIndex提供了最优化的工具链和抽象层 。
 
-    代码库: [LlamaIndex GitHub](https://github.com/run-llama/llam-index)
+    代码库: [LlamaIndex GitHub](https://github.com/run-llama/llama_index)
 
 3.  **AutoGen**
     核心定位: 一个专注于多智能体对话的框架。
@@ -354,12 +355,12 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     该综述从“沟通”这一核心视角来剖析MAS，为理解多智能体协作的内在机制提供了一个新颖的框架。
 
-    [arXiv: 2503.20847](https://arxiv.org/abs/2503.20847)
+    [arXiv: 2502.14321](https://arxiv.org/abs/2502.14321)
 
 *   **论文: ChatDev: Communicative Agents for Software Development** (Qian et al., 2023)
 
     [arXiv: 2307.07924](https://arxiv.org/abs/2307.07924)
-    [GitHub:](https://github.com/OpenBMB/ChatDev)
+    [GitHub仓库](https://github.com/OpenBMB/ChatDev)
 
 *   **开发框架**: AutoGen 是当前构建MAS的首选框架，它为定义和协调多智能体对话提供了强大的支持 。
 
@@ -387,17 +388,17 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     该综述提出了一个名为TrustAgent的框架，全面地研究了智能体可信度的各个方面。
 
-    [arXiv: 2503.20815](https://arxiv.org/abs/2503.20815)
+    [arXiv: 2503.09648](https://arxiv.org/abs/2503.09648)
 
 *   **论文: AgentBench: Evaluating LLMs as Agents** (Liu et al., 2023)
 
-    [arXiv: 2310.07914](https://arxiv.org/abs/2310.07914)
-    [GitHub:](https://github.com/THUDM/AgentBench)
+    [arXiv: 2308.03688](https://arxiv.org/abs/2308.03688)
+    [GitHub仓库](https://github.com/THUDM/AgentBench)
 
 *   **论文: MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents** (Zhu et al., 2025)
 
-    [arXiv: 2503.17694](https://arxiv.org/abs/2503.17694)
-    [GitHub:](https://github.com/THUDM/MultiAgentBench)
+    [arXiv: 2503.01935](https://arxiv.org/abs/2503.01935)
+    [GitHub仓库](https://github.com/MultiagentBench/MARBLE)
 
 智能体研究领域正处在一个关键的转折点。早期的研究重心在于证明和提升智能体的核心能力：它能否推理？能否使用工具？能否完成指定的任务？像AgentBench这样的基准测试正是为了回答这些问题而设计的。然而，随着这些能力的日益强大，并将智能体部署到真实世界的应用中，研究的焦点正不可避免地从“它能做什么？”转向“我们能信任它吗？”。这种转变体现在对齐技术（如宪法AI）、主动风险评估以及综合性可信度框架的研究日益增多。MultiAgentBench的出现进一步凸显了这一趋势，因为它认识到评估单个智能体的安全性与评估一个群体涌现出的、可能无法预测的行为是截然不同的挑战。因此，未来智能体领域的前沿探索，其衡量标准将越来越少地依赖于任务成功率等能力指标，而更多地依赖于可靠性、对齐度和安全性等可信度指标。如何构建可验证的、安全的、符合伦理的智能体系统，已成为该领域最核心的开放性问题。
 
@@ -408,16 +409,16 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
 ---
 
-## 📝 引用
-如果您在研究中使用了本指南，请考虑引用相关的原始论文。本仓库旨在作为导航和索引，而非原创性研究的来源。
+<!-- ## 📝 引用
+如果您在研究中使用了本指南，请考虑引用相关的原始论文。本仓库旨在作为导航和索引，而非原创性研究的来源。 -->
 
-```markdown
+<!-- ```markdown
 @misc{ai_agent_guide,
   title = {{AI-Agent-Guide}: A Comprehensive Guide to LLM-based AI Agents},
   author = {{Your Name or Organization}},
   year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/YOUR_GITHUB_USERNAME/AI-Agent-Guide}}
-}
+  howpublished = {\url{https://github.com/Scodive/AI-Agent-Guide}}
+} -->
 ```
