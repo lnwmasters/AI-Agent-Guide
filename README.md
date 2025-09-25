@@ -58,13 +58,13 @@
 
     该综述以方法论为中心，系统地解构了LLM智能体系统。它深入探讨了智能体的架构基础、协作机制和演化路径，旨在统一碎片化的研究线索，揭示智能体设计原则与其复杂环境中涌现行为之间的内在联系 。
 
-    [arXiv: 2503.21460](https://arxiv.org/abs/2503.21460) [GitHub仓库](https://github.com/luo-junyu/Awesome-Agent-Papers)
+    [arXiv: 2503.21460](https://arxiv.org/abs/2503.21460) / [GitHub仓库](https://github.com/luo-junyu/Awesome-Agent-Papers)
 
 *   **Agentic Large Language Models, a survey** (Plaat et al., 2025)
 
     这篇综述将智能体LLM（Agentic LLM）的核心能力归纳为三个方面：推理（reason）、行动（act）和交互（interact）。论文围绕这三个类别组织文献，清晰地展示了不同研究方向如何相互促进，例如，信息检索如何赋能工具使用，反思机制如何改善多智能体协作等 。
 
-    [arXiv: 2503.23037](https://arxiv.org/abs/2503.23037) [Website](https://askeplaat.github.io/agentic-llm-survey-site/)
+    [arXiv: 2503.23037](https://arxiv.org/abs/2503.23037) / [Website](https://askeplaat.github.io/agentic-llm-survey-site/)
 
 ### 特定领域应用综述
 *   **A Survey of Large Language Model Agents for Question Answering** (2025)
@@ -147,8 +147,8 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     介绍了一个纯视觉驱动的移动设备智能体，它无需依赖系统底层的元数据（如XML布局文件），仅通过分析屏幕截图就能自主导航和操作App，充分展示了视觉感知在跨平台通用性方面的巨大潜力。
 
-    [arXiv: 2401.16158](https://arxiv.org/abs/2401.16158)
-    [GitHub仓库](https://github.com/X-PLUG/MobileAgent)
+    [arXiv: 2401.16158](https://arxiv.org/abs/2401.16158) / [GitHub仓库](https://github.com/X-PLUG/MobileAgent)
+    
 
 <!-- *   **论文: Are Multimodal Agents Faithful in a Risky World?** (2024)
 
@@ -182,17 +182,16 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
     奠基论文: **ReAct: Synergizing Reasoning and Acting in Language Models** (Yao et al., 2022)
 
-    [arXiv: 2210.03629](https://arxiv.org/abs/2210.03629)
-    [GitHub仓库] (https://github.com/ysymyth/ReAct)
+    [arXiv: 2210.03629](https://arxiv.org/abs/2210.03629) / [GitHub仓库](https://github.com/ysymyth/ReAct)
+
 
 3.  **思维树 (Tree of Thoughts, ToT)**
     概念：ToT进一步突破了CoT和ReAct的线性推理模式。当面对需要探索或深思熟虑的问题时，ToT允许模型同时探索多条不同的推理路径，并将这些路径组织成一棵“思维树”。在这个过程中，LLM不仅扮演着“思考者”的角色，还扮演着“评估者”的角色：它会自我评估树中每个节点（即每个中间“想法”）的价值和前景，然后决定是继续深入探索某条路径（lookahead），还是放弃当前路径并返回到之前的节点尝试其他可能性（backtracking）。这种机制赋予了智能体进行系统性搜索和深思熟虑决策的能力 。
 
     奠基论文: **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** (Yao et al., 2023)
 
-    [arXiv: 2305.10601](https://arxiv.org/abs/2305.10601)
-    [GitHub仓库](https://github.com/princeton-nlp/tree-of-thought-llm)
-
+    [arXiv: 2305.10601](https://arxiv.org/abs/2305.10601) / [GitHub仓库](https://github.com/princeton-nlp/tree-of-thought-llm)
+    
 ### 核心推理技术对比
 为了帮助研究者和开发者快速理解不同推理技术的特点和适用场景，下表对上述核心技术进行了对比。从CoT到ReAct再到ToT的演变，清晰地展示了智能体认知能力从简单的线性演绎，到与环境互动的接地推理，再到复杂问题空间的主动探索这一发展轨迹。
 
@@ -278,13 +277,13 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
 *   **论文: Gorilla: Large Language Model Connected with Massive APIs** (Patil et al., 2023)
 
-    [arXiv: 2305.15334](https://arxiv.org/abs/2305.15334)
-    [GitHub仓库](https://github.com/ShishirPatil/gorilla)
+    [arXiv: 2305.15334](https://arxiv.org/abs/2305.15334) / [GitHub仓库](https://github.com/ShishirPatil/gorilla)
+    
 
 *   **论文: ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** (Qin et al., 2023)
 
-    [arXiv: 2307.16789](https://arxiv.org/abs/2307.16789)
-    [GitHub仓库](https://github.com/OpenBMB/ToolBench)
+    [arXiv: 2307.16789](https://arxiv.org/abs/2307.16789) / [GitHub仓库](https://github.com/OpenBMB/ToolBench)
+    
 
 *   **论文: LLMs as Tool Makers** (Cai et al., 2023)
 
@@ -359,8 +358,8 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
 *   **论文: ChatDev: Communicative Agents for Software Development** (Qian et al., 2023)
 
-    [arXiv: 2307.07924](https://arxiv.org/abs/2307.07924)
-    [GitHub仓库](https://github.com/OpenBMB/ChatDev)
+    [arXiv: 2307.07924](https://arxiv.org/abs/2307.07924) / [GitHub仓库](https://github.com/OpenBMB/ChatDev)
+    
 
 *   **开发框架**: AutoGen 是当前构建MAS的首选框架，它为定义和协调多智能体对话提供了强大的支持 。
 
@@ -392,13 +391,13 @@ VLMs是多模态感知的技术基石。这类模型通过结合视觉编码器�
 
 *   **论文: AgentBench: Evaluating LLMs as Agents** (Liu et al., 2023)
 
-    [arXiv: 2308.03688](https://arxiv.org/abs/2308.03688)
-    [GitHub仓库](https://github.com/THUDM/AgentBench)
+    [arXiv: 2308.03688](https://arxiv.org/abs/2308.03688) / [GitHub仓库](https://github.com/THUDM/AgentBench)
+    
 
 *   **论文: MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents** (Zhu et al., 2025)
 
-    [arXiv: 2503.01935](https://arxiv.org/abs/2503.01935)
-    [GitHub仓库](https://github.com/MultiagentBench/MARBLE)
+    [arXiv: 2503.01935](https://arxiv.org/abs/2503.01935) / [GitHub仓库](https://github.com/THUDM/AgentBench)
+    
 
 智能体研究领域正处在一个关键的转折点。早期的研究重心在于证明和提升智能体的核心能力：它能否推理？能否使用工具？能否完成指定的任务？像AgentBench这样的基准测试正是为了回答这些问题而设计的。然而，随着这些能力的日益强大，并将智能体部署到真实世界的应用中，研究的焦点正不可避免地从“它能做什么？”转向“我们能信任它吗？”。这种转变体现在对齐技术（如宪法AI）、主动风险评估以及综合性可信度框架的研究日益增多。MultiAgentBench的出现进一步凸显了这一趋势，因为它认识到评估单个智能体的安全性与评估一个群体涌现出的、可能无法预测的行为是截然不同的挑战。因此，未来智能体领域的前沿探索，其衡量标准将越来越少地依赖于任务成功率等能力指标，而更多地依赖于可靠性、对齐度和安全性等可信度指标。如何构建可验证的、安全的、符合伦理的智能体系统，已成为该领域最核心的开放性问题。
 
